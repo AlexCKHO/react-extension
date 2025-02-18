@@ -9,7 +9,10 @@
   "author": "Testing",
   "license": "UNLICENSED",
   "devDependencies": {
+    "copy-webpack-plugin": "^12.0.2",
+    "html-webpack-plugin": "^5.6.3",
     "react": "^17.0.1",
+    "react-dom": "^17.0.2",
     "ts-loader": "^9.5.2",
     "typescript": "^5.7.3",
     "webpack": "^5.98.0",
