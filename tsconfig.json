@@ -1,11 +1,13 @@
 {
   "compilerOptions": {
+    "lib": ["dom", "esnext"],
     "jsx": "react",
-    "module": "es6",
-    "target": "es6",
+    "module": "esnext",
+    "target": "esnext",
     "moduleResolution": "node",
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true
   },
-  "include": ["src/**/*.ts", "src/**/*tsx"],
+  "include": ["src"],
   "exclude": ["node_modules"]
 }
